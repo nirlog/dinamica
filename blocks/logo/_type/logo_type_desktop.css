@@ -1,0 +1,10 @@
+.logo_type_desktop {
+  max-width: 164px;
+  display: block;
+}
+
+@media screen and (max-width:450px) {
+  .logo_type_desktop {
+    display: none;
+  }
+}

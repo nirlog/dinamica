@@ -1,0 +1,10 @@
+.logo_type_mobile {
+  width: 55px;
+  display: none;
+}
+
+@media screen and (max-width:450px) {
+  .logo_type_mobile {
+    display: block;
+  }
+}

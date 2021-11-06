@@ -1,0 +1,11 @@
+.header__contacts {
+  color: rgb(255 255 255 / 60%);
+  font-size: 18px;
+  max-width: 450px;
+}
+
+@media screen and (max-width:800px) {
+  .header__contacts {
+    display: none;
+  }
+}
