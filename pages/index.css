@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -11,7 +12,6 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_type/logo_type_desktop.css);
 @import url(../blocks/logo/_type/logo_type_mobile.css);
-@import url(../blocks/logo/__img/logo__img.css);
 @import url(../blocks/adress/adress.css);
 @import url(../blocks/adress/__text/adress__text.css);
 @import url(../blocks/adress/__img/adress__img.css);
@@ -20,5 +20,19 @@
 @import url(../blocks/social/__item/social__item.css);
 @import url(../blocks/social/__link/social__link.css);
 @import url(../blocks/phone/phone.css);
-
-
+@import url(../blocks/top-menu/top-menu.css);
+@import url(../blocks/top-menu/__content/top-menu__content.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/submenu/submenu.css);
+@import url(../blocks/submenu/__item/submenu__item.css);
+@import url(../blocks/submenu/__link/submenu__link.css);
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__item/mobile-menu__item.css);
+@import url(../blocks/mobile-menu/__social/mobile-menu__social.css);
+@import url(../blocks/button-menu/button-menu.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_color/button_color_red.css);
+@import url(../blocks/button/_color/button_color_gray.css);
+@import url(../blocks/button/_color/button_color_white.css);

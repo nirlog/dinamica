@@ -1,0 +1,15 @@
+.submenu__link {
+    color: #252525;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-decoration: none;
+
+}
+
+.submenu__link:hover {
+  color:#007BB6;
+  text-decoration: underline;
+}

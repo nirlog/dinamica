@@ -1,0 +1,22 @@
+.button-menu {
+  visibility: hidden;
+  background-image: url(../../images/menu.svg);
+
+  height: 60px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  width: 1px;
+}
+
+.button-menu.opened {
+  border-image: url(../../images/close.svg);
+}
+
+@media screen and (max-width: 1200px) {
+  .button-menu {
+    visibility: visible;
+    width: 60px;
+  }
+}

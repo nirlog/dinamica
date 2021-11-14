@@ -1,6 +1,7 @@
 .header__contacts {
   color: rgb(255 255 255 / 60%);
   font-size: 18px;
+  line-height: 24px;
   max-width: 450px;
 }
 

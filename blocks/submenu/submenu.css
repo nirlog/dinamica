@@ -1,0 +1,26 @@
+.submenu {
+  list-style: none;
+  position: absolute;
+  margin: 0;
+  padding: 25px 10px;
+  visibility: hidden;
+  height: 1px;
+  opacity: 0;
+  background-color: #fff;
+  z-index: 2;
+  transition: all .25s linear;
+}
+
+
+.submenu.active {
+  visibility:visible;
+  opacity: 1;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .submenu {
+    position: relative;
+    padding: 0 10px;
+  }
+}

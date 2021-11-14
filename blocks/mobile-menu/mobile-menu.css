@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) {
+  .mobile-menu {
+    display: none;
+    /* background-color: thistle; */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .mobile-menu.opened {
+    display: block;
+  }
+}
+
+

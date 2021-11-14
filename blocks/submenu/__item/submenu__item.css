@@ -1,0 +1,9 @@
+.submenu__item {
+  padding: 20px 0;
+}
+
+.submenu__item:not(:first-child) {
+  border-top: 1px solid rgba(37, 37, 37, 0.5);
+}
+
+

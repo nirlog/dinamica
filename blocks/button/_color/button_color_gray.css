@@ -1,0 +1,16 @@
+.button_color_gray {
+  background-color: #252525;
+  color: #fff;
+  border: #252525 2px solid;
+  outline: none;
+}
+
+.button_color_gray:hover {
+  background-color: #007BB6;
+  border-color: #007BB6;
+}
+
+.button_color_gray:focus {
+  background-color: #252525;
+  border-color: #007BB6;
+}

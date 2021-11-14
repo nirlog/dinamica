@@ -1,0 +1,13 @@
+.mobile-menu__item {
+  display: none;
+}
+
+.mobile-menu__item.adress {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile-menu__item {
+    display: block;
+  }
+}

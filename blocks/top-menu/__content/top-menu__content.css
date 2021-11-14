@@ -1,0 +1,18 @@
+.top-menu__content {
+  max-width: 1320px;
+  margin: auto;
+  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  justify-items: stretch;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .top-menu__content {
+    grid-template-columns: 1fr auto;
+  }
+}
