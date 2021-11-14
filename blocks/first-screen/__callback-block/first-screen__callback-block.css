@@ -1,0 +1,7 @@
+.first-screen__callback-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}

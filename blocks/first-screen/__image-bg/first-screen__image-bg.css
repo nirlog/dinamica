@@ -1,0 +1,18 @@
+.first-screen__image-bg {
+  object-fit: cover;
+  object-position: left center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 50%;
+  height: 100%;
+  z-index: 0;
+}
+
+@media screen and (max-width:1000px) {
+  .first-screen__image-bg {
+    position: relative;
+    object-fit: fill;
+    max-width: 100%;
+  }
+}

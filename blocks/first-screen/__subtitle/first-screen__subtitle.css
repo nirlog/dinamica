@@ -1,0 +1,15 @@
+.first-screen__subtitle {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 116%;
+  width: 260px;
+  margin: 0;
+}
+
+@media screen and (max-width:600px) {
+  .first-screen__subtitle {
+  font-size: 20px;
+  }
+}

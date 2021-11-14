@@ -1,19 +1,18 @@
 .header__content {
-  max-width: 1320px;
-  margin: auto;
-  padding: 35px 10px 25px;
+  padding-top: 35px;
+  padding-bottom: 25px;
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-items: stretch;
   align-items: center;
   gap: 10px;
-  box-sizing: border-box;
   justify-content: space-between;
 }
 
 @media screen and (max-width:800px) {
   .header__content {
     grid-template-columns: repeat(2, auto);
-    padding: 20px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }

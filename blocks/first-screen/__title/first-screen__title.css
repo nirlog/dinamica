@@ -1,0 +1,20 @@
+.first-screen__title {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 116%;
+  margin: 0;
+}
+
+@media screen and (max-width:1000px) {
+  .first-screen__title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .first-screen__title {
+    font-size: 48px;
+  }
+}

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -36,3 +37,15 @@
 @import url(../blocks/button/_color/button_color_red.css);
 @import url(../blocks/button/_color/button_color_gray.css);
 @import url(../blocks/button/_color/button_color_white.css);
+@import url(../blocks/first-screen/first-screen.css);
+@import url(../blocks/first-screen/__image-bg/first-screen__image-bg.css);
+@import url(../blocks/first-screen/__content/first-screen__content.css);
+@import url(../blocks/first-screen/__title/first-screen__title.css);
+@import url(../blocks/first-screen/__subtitle/first-screen__subtitle.css);
+@import url(../blocks/first-screen/__text/first-screen__text.css);
+@import url(../blocks/first-screen/__callback-block/first-screen__callback-block.css);
+@import url(../blocks/first-screen/__callback-button/first-screen__callback-button.css);
+@import url(../blocks/callback-list/callback-list.css);
+@import url(../blocks/callback-list/__item/callback-list__item.css);
+@import url(../blocks/callback-list/__link/callback-list__link.css);
+@import url(../blocks/callback-list/__icon/callback-list__icon.css);

@@ -1,13 +1,11 @@
 .top-menu__content {
-  max-width: 1320px;
-  margin: auto;
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: grid;
   grid-template-columns: 1fr auto auto;
   justify-items: stretch;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
   gap: 20px;
 }
 
