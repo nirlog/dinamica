@@ -1,0 +1,20 @@
+.services__content {
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1000px) {
+  .services__content {
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .services__content {
+    min-height: 180px;
+  }
+}

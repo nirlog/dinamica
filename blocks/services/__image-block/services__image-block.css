@@ -1,0 +1,10 @@
+.services__image-block {
+  position: relative;
+  padding: 50% 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .services__image-block {
+    padding: 30% 0;
+  }
+}

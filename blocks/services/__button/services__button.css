@@ -1,0 +1,19 @@
+.services__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 70px);
+  text-align: center;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.services__item.hover .services__button, .services__item:hover .services__button {
+  display: inline-block;
+}
+
+@media screen and (max-width: 850px) {
+  .services__button {
+    top: 120px;
+  }
+}

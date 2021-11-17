@@ -1,0 +1,13 @@
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+}

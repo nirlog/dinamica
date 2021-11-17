@@ -1,0 +1,26 @@
+.services__number {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 288px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.11);
+  bottom: -25%;
+  left: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+  .services__number {
+    font-size: 200px;
+    bottom: -20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .services__number {
+    font-size: 200px;
+    bottom: -30%;
+    right: 0%;
+    left: auto;
+  }
+}

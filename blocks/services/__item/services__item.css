@@ -1,0 +1,16 @@
+.services__item {
+  background-color: #007BB6;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services__item.hover, .services__item:hover {
+  background-color: #252525;
+}
+
+@media screen and (max-width: 1000px) {
+  .services__item {
+  grid-template-columns: 1fr;
+  }
+}
