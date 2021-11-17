@@ -1,0 +1,26 @@
+.special-offers__content {
+  background-color: #F0F0F0;
+  padding: 50px;
+  background-image: url(../../../images/line.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.special-offers__item:hover .special-offers__content {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-image: url(../../../images/line_hover.svg);
+}
+
+
+@media screen and (max-width:1000px) {
+  .special-offers__item:hover .special-offers__content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url(../../../images/line_hover.svg);
+  }
+}

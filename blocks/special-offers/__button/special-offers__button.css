@@ -1,0 +1,7 @@
+.special-offers__button {
+  display: none;
+}
+
+.special-offers__item:hover .special-offers__button {
+  display: block;
+}

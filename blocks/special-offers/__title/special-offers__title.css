@@ -1,0 +1,16 @@
+.special-offers__title {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 116%;
+  color: #252525;
+}
+
+
+@media screen and (max-width:650px) {
+  .special-offers__title {
+    font-size: 28px;
+    line-height: 116%;
+  }
+}
