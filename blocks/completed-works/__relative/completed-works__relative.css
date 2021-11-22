@@ -1,0 +1,12 @@
+.completed-works__relative {
+  height: 130px;
+  position: relative;
+  display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .completed-works__relative {
+    display: block;
+  }
+}

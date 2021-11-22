@@ -1,0 +1,10 @@
+.completed-works__navigation {
+  display: block;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .completed-works__navigation {
+    display: none;
+  }
+}

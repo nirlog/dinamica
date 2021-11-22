@@ -1,0 +1,16 @@
+.navigation__button {
+  padding: 20px 25px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  border-radius: 30px;
+  display: block;
+  min-width: 90px;
+  box-sizing: border-box;
+}
+
+.navigation__button.selected {
+  background-color: #007BB6;
+  border-color: #007BB6;
+}

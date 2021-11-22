@@ -1,0 +1,13 @@
+.navigation-select__value {
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.navigation-select__value:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navigation-select__value:hover {
+  background-color: rgb(255 255 255 / 15%);
+}

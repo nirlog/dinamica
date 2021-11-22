@@ -111,7 +111,7 @@
       </ul>
       <button class="button-menu"></button>
       <div>
-        <button class="button button_color_red">Записаться онлайн</button>
+        <button class="button button_color_red" data-fancybox="dialog" data-src="#test">Записаться онлайн</button>
       </div>
 
     </div>
@@ -248,7 +248,120 @@
       </li>
     </ul>
   </section>
+  <section class="completed-works">
+    <div class="container">
+      <h2 class="container__title">Выполненные работы</h2>
+      <nav class="completed-works__navigation">
+        <ul class="navigation" data-nav-id="completed-works">
+          <li class="navigation__item"><button data-nav="all" class="navigation__button selected">Все</button></li>
+          <li class="navigation__item"><button data-nav="polishing" class="navigation__button">Полировка</button></li>
+          <li class="navigation__item"><button data-nav="dry-cleaning" class="navigation__button">Химчистка</button></li>
+          <li class="navigation__item"><button data-nav="pasting-with-films" class="navigation__button">Оклеивание пленками</button></li>
+          <li class="navigation__item"><button data-nav="protective-coatings" class="navigation__button">Защитные покрытия</button></li>
+          <li class="navigation__item"><button data-nav="removing-dents" class="navigation__button">Удаление вмятин</button></li>
+          <li class="navigation__item"><button data-nav="sound-insulation" class="navigation__button">Шумоизоляция</button></li>
+          <li class="navigation__item"><button data-nav="professional-car-wash" class="navigation__button">Профессиональная мойка</button></li>
+        </ul>
+      </nav>
+      <div class="completed-works__relative">
+        <nav class="navigation-select">
+            <span class="navigation-select__selected" data-nav-active="All">Все</span>
+            <ul class="navigation-select__list">
+              <li class="navigation-select__value" data-nav="all">Все</li>
+              <li class="navigation-select__value" data-nav="polishing">Полировка</li>
+              <li class="navigation-select__value" data-nav="dry-cleaning">Химчистка</li>
+              <li class="navigation-select__value" data-nav="pasting-with-films">Оклеивание пленками</li>
+              <li class="navigation-select__value" data-nav="protective-coatings">Защитные покрытия</li>
+              <li class="navigation-select__value" data-nav="removing-dents">Удаление вмятин</li>
+              <li class="navigation-select__value" data-nav="sound-insulation">Шумоизоляция</li>
+              <li class="navigation-select__value" data-nav="professional-car-wash">Профессиональная мойка</li>
+            </ul>
+        </nav>
+      </div>
+      <ul id="worksSlider1" data-slider="all" class="carousel">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <!-- <li class="carousel__slide"><div><iframe width="560" height="399" src="https://www.youtube.com/embed/rsdKY-q514I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></li> -->
+      </ul>
+
+      <ul id="worksSlider2" data-slider="polishing" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+
+      <ul id="worksSlider3" data-slider="dry-cleaning" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+
+      <ul id="worksSlider4" data-slider="pasting-with-films" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+
+      <ul id="worksSlider5" data-slider="protective-coatings" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+
+      <ul id="worksSlider6" data-slider="removing-dents" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+
+      <ul id="worksSlider7" data-slider="sound-insulation" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+
+      <ul id="worksSlider8" data-slider="professional-car-wash" class="carousel hidden">
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+      </ul>
+      <div class="social-gallery">
+        <p class="social-gallery__text">Ещё больше наших работ вы можете посмотреть на нашем канале:</p>
+        <ul class="social">
+          <li class="social__item">
+            <a href="" class="social__link">
+              <img src="./images/tiktok.svg" alt="" class="social__img">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" class="social__link">
+              <img src="./images/instagram.svg" alt="" class="social__img">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" class="social__link">
+              <img src="./images/youtube.svg" alt="" class="social__img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
   <br><br><br>
-  <script type="module" src="./pages/index.js"></script>
+  <div id="test" style="display:none;max-width:500px;">
+    <h3>test</h3>
+  </div>
+  <script async type="module" src="./pages/index.js"></script>
+
 </body>
 </html>

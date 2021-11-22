@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css');
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
@@ -65,4 +66,17 @@
 @import url(../blocks/special-offers/__title/special-offers__title.css);
 @import url(../blocks/special-offers/__text/special-offers__text.css);
 @import url(../blocks/special-offers/__button/special-offers__button.css);
-
+@import url(../blocks/completed-works/completed-works.css);
+@import url(../blocks/completed-works/__navigation/completed-works__navigation.css);
+@import url(../blocks/completed-works/__relative/completed-works__relative.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__item/navigation__item.css);
+@import url(../blocks/navigation/__button/navigation__button.css);
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/carousel/__slide/carousel__slide.css);
+@import url(../blocks/navigation-select/navigation-select.css);
+@import url(../blocks/navigation-select/__selected/navigation-select__selected.css);
+@import url(../blocks/navigation-select/__list/navigation-select__list.css);
+@import url(../blocks/navigation-select/__value/navigation-select__value.css);
+@import url(../blocks/social-gallery/social-gallery.css);
+@import url(../blocks/social-gallery/__text/social-gallery__text.css);
