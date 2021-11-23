@@ -1,0 +1,12 @@
+.rewiew__avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #007BB6;
+  border-radius: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff
+}

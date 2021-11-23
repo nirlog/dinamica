@@ -1,0 +1,11 @@
+.review {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .review:nth-child(2n) {
+    display: none;
+  }
+}

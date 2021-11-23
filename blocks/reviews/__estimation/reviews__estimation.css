@@ -1,0 +1,17 @@
+.reviews__estimation {
+  background-color: #F0F0F0;
+  width: 250px;
+  height: 200px;
+  background-image: url(../../../images/line.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 116%;
+  color: #252525;
+}

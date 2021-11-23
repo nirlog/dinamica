@@ -1,0 +1,12 @@
+.reviews__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px
+}
+
+
+@media screen and (max-width: 1000px) {
+  .reviews__items {
+    grid-template-columns: 1fr;
+  }
+}

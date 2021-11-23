@@ -1,0 +1,15 @@
+.costing__dinamica {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20vw;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.11);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+  transform: translateY(40%);
+}

@@ -5,21 +5,20 @@
   font-size: 288px;
   position: absolute;
   color: rgba(255, 255, 255, 0.11);
-  bottom: -25%;
+  bottom: 0;
   left: 10%;
+  transform: translateY(25%);
 }
 
 @media screen and (max-width: 1200px) {
   .services__number {
     font-size: 200px;
-    bottom: -20%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .services__number {
     font-size: 200px;
-    bottom: -30%;
     right: 0%;
     left: auto;
   }

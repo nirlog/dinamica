@@ -1,0 +1,13 @@
+.reviews__content {
+  display: grid;
+  grid-template-columns: 1fr 355px;
+  gap: 30px;
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .reviews__content {
+    grid-template-columns: 1fr;
+  }
+}
