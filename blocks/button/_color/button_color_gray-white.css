@@ -1,0 +1,18 @@
+.button_color_gray-white {
+  background-color: #252525;
+  color: #fff;
+  border: #252525 2px solid;
+  outline: none;
+}
+
+.button_color_gray-white:hover {
+  background-color: #fff;
+  color: #252525;
+  border-color: #252525;
+}
+
+.button_color_gray-white:focus {
+  background-color: #252525;
+  color: #fff;
+  border-color: #fff;
+}

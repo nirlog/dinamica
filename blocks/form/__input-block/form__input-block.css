@@ -1,0 +1,5 @@
+.form__input-block {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}

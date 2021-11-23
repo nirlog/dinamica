@@ -1,0 +1,15 @@
+.costing__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 15px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .costing__form {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: auto;
+  }
+}

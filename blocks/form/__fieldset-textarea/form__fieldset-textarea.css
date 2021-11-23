@@ -1,0 +1,10 @@
+.form__fieldset-textarea {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 650px) {
+  .form__fieldset-textarea {
+    height: 100px;
+  }
+}
