@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinamica</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <script async type="module" src="./pages/index.js"></script>
 </head>
 <body class="page">
   <header class="header">
@@ -48,7 +49,7 @@
 
       <ul class="menu mobile-menu">
         <li class="menu__item menu__submenu">
-          <a href="#test" class="menu__link">Услуги</a>
+          <a href="#services" class="menu__link">Услуги</a>
           <ul class="submenu">
             <li class="submenu__item"><a href="#" class="submenu__link">Полировка</a></li>
             <li class="submenu__item"><a href="#" class="submenu__link">Химчистка</a></li>
@@ -60,19 +61,10 @@
           </ul>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Выполненные работы</a>
+          <a href="#special-offers" class="menu__link">Акции и спецпредложения</a>
         </li>
-        <li class="menu__item menu__submenu">
-          <a href="#" class="menu__link">Акции и спецпредложения</a>
-          <ul class="submenu">
-            <li class="submenu__item"><a href="#" class="submenu__link">Полировка</a></li>
-            <li class="submenu__item"><a href="#" class="submenu__link">Химчистка</a></li>
-            <li class="submenu__item"><a href="#" class="submenu__link">Оклеивание пленками</a></li>
-            <li class="submenu__item"><a href="#" class="submenu__link">Защитные покрытия</a></li>
-            <li class="submenu__item"><a href="#" class="submenu__link">Удаление вмятин</a></li>
-            <li class="submenu__item"><a href="#" class="submenu__link">Шумоизоляция</a></li>
-            <li class="submenu__item"><a href="#" class="submenu__link">Профессиональная мойка</a></li>
-          </ul>
+        <li class="menu__item">
+          <a href="#completed-works" class="menu__link">Выполненные работы</a>
         </li>
         <li class="menu__item">
           <a href="#" class="menu__link">Отзывы</a>
@@ -134,7 +126,7 @@
     </div>
     <img class="first-screen__image-bg" src="./images/index-first-screen.jpg" alt="">
   </section>
-  <section class="container">
+  <section id="services" class="container">
     <h2 class="container__title">Услуги</h2>
 
     <ul class="services">
@@ -222,7 +214,7 @@
       </li>
     </ul>
   </section>
-  <section class="container">
+  <section id="special-offers" class="container">
     <h2 class="container__title">Акции и спецпредложения</h2>
     <ul class="special-offers">
       <li class="special-offers__item">
@@ -248,7 +240,7 @@
       </li>
     </ul>
   </section>
-  <section class="completed-works">
+  <section id="completed-works" class="completed-works">
     <div class="container">
       <h2 class="container__title">Выполненные работы</h2>
       <nav class="completed-works__navigation">
@@ -279,39 +271,42 @@
         </nav>
       </div>
       <ul id="worksSlider1" data-slider="all" class="carousel">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
-        <!-- <li class="carousel__slide"><div><iframe width="560" height="399" src="https://www.youtube.com/embed/rsdKY-q514I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></li> -->
+
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
+
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a data-src="https://www.youtube.com/watch?v=r-GAhuVR7jA" data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing-video1.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider2" data-slider="polishing" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all1" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all1" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all1" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all1" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a data-src="https://www.youtube.com/watch?v=r-GAhuVR7jA" data-fancybox="gallery_polishing" ><img data-lazy-src="./images/worksSlider/polishing-video1.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider3" data-slider="dry-cleaning" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all2" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all2" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all2" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all2" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider4" data-slider="pasting-with-films" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all3" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all3" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all3" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all3" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider5" data-slider="protective-coatings" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all4" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all4" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all4" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all4" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider6" data-slider="removing-dents" class="carousel hidden">
@@ -476,11 +471,89 @@
         </div>
     </div>
   </section>
+  <section class="company">
+    <div class="container">
+      <h2 class="container__title">О Dinamica</h2>
+      <div class="advantages">
+        <article class="advantages__item">
+          <h3 class="advantages__title">12 лет лидерства</h3>
+          <p class="advantages__text">команда настоящих мастеров и фанатов детейлинга и тюнинга с рабочим стажем более 12 лет</p>
+        </article>
+        <article class="advantages__item">
+          <h3 class="advantages__title">Более 7300</h3>
+          <p class="advantages__text">обновленных и восстановленных автомобилей с момента открытия Dinamica</p>
+        </article>
+        <article class="advantages__item">
+          <h3 class="advantages__title">Зона комфорта</h3>
+          <p class="advantages__text">с диванами, кофе, Wi-Fi и возможностью видеть рабочий процесс в панорамные окна</p>
+        </article>
+      </div>
+      <div class="company__video video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6rDs-Hgk3X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="about">
+        <h3 class="about__title">Dinamica Detailing - это:</h3>
+        <ul class="about__list">
+          <li class="about__item">
+            <article>
+              <div class="about__item-header">
+                <h4 class="about__item-title">Детейлинг центр</h4>
+                <p class="about__item-subtitle">где осуществляется уход, защита и косметическое восстановление внешнего вида авто</p>
+                <div class="about__item-number">1</div>
+              </div>
+              <div class="about__item-body">
+                  <ul class="about__item-list">
+                    <li>полный спектр услуг автомоечного комплекса</li>
+                    <li>оклеивание виниловой пленкой</li>
+                    <li>антигравийное защитное покрытие</li>
+                    <li>шумоизоляция</li>
+                    <li>керамическая защита кузова и салона</li>
+                    <li>полировка</li>
+                  </ul>
+              </div>
+            </article>
+          </li>
+          <li class="about__item">
+            <article>
+              <div class="about__item-header">
+                <h4 class="about__item-title">Автоателье</h4>
+                <p class="about__item-subtitle">где высококвалифицированные специалисты творят чудеса с интерьером автомобилей</p>
+                <div class="about__item-number">2</div>
+              </div>
+              <div class="about__item-body">
+                  <ul class="about__item-list">
+                    <li>создание дизайн проектов и дизайнерский пошив салонов</li>
+                    <li>ремонт, реставрация, покраска и перетяжка кожи</li>
+                    <li>комплексная химчистка салона</li>
+                  </ul>
+              </div>
+            </article>
+          </li>
+          <li class="about__item">
+            <article>
+              <div class="about__item-header">
+                <h4 class="about__item-title">Малярно-кузовной участок</h4>
+                <p class="about__item-subtitle">где можно восстановить внешний вид автомобиля даже после серьезных повреждений</p>
+                <div class="about__item-number">3</div>
+              </div>
+              <div class="about__item-body">
+                <ul class="about__item-list">
+                  <li>малярно-кузовные работы</li>
+                  <li>выпрямление вмятин без покраски</li>
+                  <li>внешний тюнинг</li>
+                  <li>защитное покрытие - "Protect"</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
   <br><br><br>
   <div id="test" style="display:none;max-width:500px;">
     <h3>test</h3>
   </div>
-  <script async type="module" src="./pages/index.js"></script>
-
 </body>
 </html>

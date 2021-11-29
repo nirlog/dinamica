@@ -1,0 +1,21 @@
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 10px 30px;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .advantages {
+    grid-template-columns: repeat(2, 320px);
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .advantages {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}

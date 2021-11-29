@@ -5,6 +5,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/container/__title/container__title.css);
+@import url(../blocks/video/video.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -121,4 +122,20 @@
 @import url(../blocks/rating/rating.css);
 @import url(../blocks/rating/__bg/rating__bg.css);
 @import url(../blocks/rating/__image/rating__image.css);
+@import url(../blocks/company/company.css);
+@import url(../blocks/company/__video/company__video.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__text/advantages__text.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__item-body/about__item-body.css);
+@import url(../blocks/about/__item-header/about__item-header.css);
+@import url(../blocks/about/__item-list/about__item-list.css);
+@import url(../blocks/about/__item-number/about__item-number.css);
+@import url(../blocks/about/__item-subtitle/about__item-subtitle.css);
+@import url(../blocks/about/__item-title/about__item-title.css);
+@import url(../blocks/about/__item/about__item.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__title/about__title.css);
 
