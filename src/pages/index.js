@@ -1,4 +1,7 @@
-import { Fancybox, Carousel } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+import "@fancyapps/ui/dist/fancybox.css";
+import './index.css';
+
+import { Fancybox, Carousel } from "@fancyapps/ui";
 import Submenu from '../scripts/components/Submenu.js';
 import MenuSlider from '../scripts/components/MenuSlider.js';
 

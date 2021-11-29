@@ -5,36 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinamica</title>
-    <link rel="stylesheet" href="./pages/index.css">
-    <script async type="module" src="./pages/index.js"></script>
 </head>
 <body class="page">
   <header class="header">
     <div class="container header__content">
       <div class="header__logo">
-        <img src="./images/logo-w.png" alt="" class="logo logo_type_desktop">
-        <img src="./images/logo-icon-w.png" alt="" class="logo logo_type_mobile">
+        <img src="<%=require('./images/logo-w.png')%>" alt="" class="logo logo_type_desktop">
+        <img src="<%=require('./images/logo-icon-w.png')%>" alt="" class="logo logo_type_mobile">
       </div>
       <div class="header__contacts adress">
         <p class="adress__text">
-          <img src="./images/room.svg" class="adress__img" alt="">
+          <img src="<%=require('./images/room.svg')%>" class="adress__img" alt="">
           <span>Санкт-Петербург, ул. Дорога на Турухтанные Острова, д. 10А</span>
         </p>
       </div>
       <ul class="header__social social">
         <li class="social__item">
           <a href="" class="social__link">
-            <img src="./images/tiktok.svg" alt="" class="social__img">
+            <img src="<%=require('./images/tiktok.svg')%>" alt="" class="social__img">
           </a>
         </li>
         <li class="social__item">
           <a href="" class="social__link">
-            <img src="./images/instagram.svg" alt="" class="social__img">
+            <img src="<%=require('./images/instagram.svg')%>" alt="" class="social__img">
           </a>
         </li>
         <li class="social__item">
           <a href="" class="social__link">
-            <img src="./images/youtube.svg" alt="" class="social__img">
+            <img src="<%=require('./images/youtube.svg')%>" alt="" class="social__img">
           </a>
         </li>
       </ul>
@@ -77,7 +75,7 @@
         </li>
         <li class="mobile-menu__item adress">
             <p class="adress__text">
-              <img src="./images/room_black.svg" class="adress__img" alt="">
+              <img src="<%=require('./images/room_black.svg')%>" class="adress__img" alt="">
               <span>Санкт-Петербург, ул. Дорога на Турухтанные Острова, д. 10А</span>
             </p>
         </li>
@@ -85,17 +83,17 @@
           <ul class="mobile-menu__social social">
             <li class="social__item">
               <a href="" class="social__link">
-                <img src="./images/tiktok_black.svg" alt="" class="social__img">
+                <img src="<%=require('./images/tiktok_black.svg')%>" alt="" class="social__img">
               </a>
             </li>
             <li class="social__item">
               <a href="" class="social__link">
-                <img src="./images/instagram_black.svg" alt="" class="social__img">
+                <img src="<%=require('./images/instagram_black.svg')%>" alt="" class="social__img">
               </a>
             </li>
             <li class="social__item">
               <a href="" class="social__link">
-                <img src="./images/youtube_black.svg" alt="" class="social__img">
+                <img src="<%=require('./images/youtube_black.svg')%>" alt="" class="social__img">
               </a>
             </li>
           </ul>
@@ -117,14 +115,14 @@
         <div class="first-screen__callback-block">
           <button class="first-screen__callback-button button button_color_gray">Оставить заявку</button>
           <ul class="callback-list">
-            <li class="callback-list__item"><a class="callback-list__link" href="#"><img class="callback-list__icon" src="./images/whatsapp.svg" alt=""></a></li>
-            <li class="callback-list__item"><a class="callback-list__link" href="#"><img class="callback-list__icon" src="./images/telegram.svg" alt=""></a></li>
-            <li class="callback-list__item"><a class="callback-list__link" href="#"><img class="callback-list__icon" src="./images/viber.svg" alt=""></a></li>
+            <li class="callback-list__item"><a class="callback-list__link" href="#"><img class="callback-list__icon" src="<%=require('./images/whatsapp.svg')%>" alt=""></a></li>
+            <li class="callback-list__item"><a class="callback-list__link" href="#"><img class="callback-list__icon" src="<%=require('./images/telegram.svg')%>" alt=""></a></li>
+            <li class="callback-list__item"><a class="callback-list__link" href="#"><img class="callback-list__icon" src="<%=require('./images/viber.svg')%>" alt=""></a></li>
           </ul>
         </div>
       </div>
     </div>
-    <img class="first-screen__image-bg" src="./images/index-first-screen.jpg" alt="">
+    <img class="first-screen__image-bg" src="<%=require('./images/index-first-screen.jpg')%>" alt="">
   </section>
   <section id="services" class="container">
     <h2 class="container__title">Услуги</h2>
@@ -141,7 +139,7 @@
               <li>Коррекционная</li>
             </ul>
           </div>
-          <div class="services__image-block"><img src="./images/services/polishing.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/polishing.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
       <li>
@@ -151,7 +149,7 @@
             <h3 class="services__title">Химчистка</h3>
             <a href="#" class="services__button button button_color_white">Подробнее</a>
           </div>
-          <div class="services__image-block"><img src="./images/services/dry-cleaning.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/dry-cleaning.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
       <li>
@@ -165,7 +163,7 @@
               <li>ПВХ (виниловая)</li>
             </ul>
           </div>
-          <div class="services__image-block"><img src="./images/services/pasting-with-films.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/pasting-with-films.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
       <li>
@@ -179,7 +177,7 @@
               <li>Твердый воск "SWISSVAX"</li>
             </ul>
           </div>
-          <div class="services__image-block"><img src="./images/services/protective-coatings.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/protective-coatings.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
       <li>
@@ -189,7 +187,7 @@
             <h3 class="services__title">Удаление вмятин</h3>
             <a href="#" class="services__button button button_color_white">Подробнее</a>
           </div>
-          <div class="services__image-block"><img src="./images/services/removing-dents.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/removing-dents.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
       <li>
@@ -199,7 +197,7 @@
             <h3 class="services__title">Шумоизоляция</h3>
             <a href="#" class="services__button button button_color_white">Подробнее</a>
           </div>
-          <div class="services__image-block"><img src="./images/services/sound-insulation.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/sound-insulation.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
       <li>
@@ -209,7 +207,7 @@
             <h3 class="services__title">Профессиональная мойка</h3>
             <a href="#" class="services__button button button_color_white">Подробнее</a>
           </div>
-          <div class="services__image-block"><img src="./images/services/professional-car-wash.jpg" alt="" class="services__image"></div>
+          <div class="services__image-block"><img src="<%=require('./images/services/professional-car-wash.jpg')%>" alt="" class="services__image"></div>
         </article>
       </li>
     </ul>
@@ -272,79 +270,79 @@
       </div>
       <ul id="worksSlider1" data-slider="all" class="carousel">
 
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_all"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
 
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a data-src="https://www.youtube.com/watch?v=r-GAhuVR7jA" data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing-video1.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_all"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_all"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_all"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a data-src="https://www.youtube.com/watch?v=r-GAhuVR7jA" data-fancybox="gallery_all"><img data-lazy-src="<%=require('./images/worksSlider/polishing-video1.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_all"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider2" data-slider="polishing" class="carousel hidden">
-        <li class="carousel__slide"><a data-src="https://www.youtube.com/watch?v=r-GAhuVR7jA" data-fancybox="gallery_polishing" ><img data-lazy-src="./images/worksSlider/polishing-video1.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a data-src="https://www.youtube.com/watch?v=r-GAhuVR7jA" data-fancybox="gallery_polishing" ><img data-lazy-src="<%=require('./images/worksSlider/polishing-video1.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider3" data-slider="dry-cleaning" class="carousel hidden">
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider4" data-slider="pasting-with-films" class="carousel hidden">
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider5" data-slider="protective-coatings" class="carousel hidden">
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing1.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing1_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing2.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing2_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing3.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing3_tb.jpg" alt=""></a></li>
-        <li class="carousel__slide"><a href="./images/worksSlider/polishing4.jpg"  data-fancybox="gallery_polishing"><img data-lazy-src="./images/worksSlider/polishing4_tb.jpg" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider6" data-slider="removing-dents" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all5" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all5" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all5" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all5" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider7" data-slider="sound-insulation" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all6" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all6" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all6" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all6" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
 
       <ul id="worksSlider8" data-slider="professional-car-wash" class="carousel hidden">
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all7" data-lazy-src="./images/worksSlider/188040710_1199397617231572_8824433523751043997_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all7" data-lazy-src="./images/worksSlider/188161926_119176333553929_7699302869999891494_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all7" data-lazy-src="./images/worksSlider/188171709_853750478828041_4840933065924271908_n.jpg" alt=""></div></li>
-        <li class="carousel__slide"><div><img data-fancybox="gallery_all7" data-lazy-src="./images/worksSlider/188710042_802863043974796_6901628129357920802_n.jpg" alt=""></div></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing1.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing1_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing2.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing2_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing3.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing3_tb.jpg')%>" alt=""></a></li>
+        <li class="carousel__slide"><a href="<%=require('./images/worksSlider/polishing4.jpg')%>"  data-fancybox="gallery_polishing"><img data-lazy-src="<%=require('./images/worksSlider/polishing4_tb.jpg')%>" alt=""></a></li>
       </ul>
       <div class="social-gallery">
         <p class="social-gallery__text">Ещё больше наших работ вы можете посмотреть на нашем канале:</p>
         <ul class="social">
           <li class="social__item">
             <a href="" class="social__link">
-              <img src="./images/tiktok.svg" alt="" class="social__img">
+              <img src="<%=require('./images/tiktok.svg')%>" alt="" class="social__img">
             </a>
           </li>
           <li class="social__item">
             <a href="" class="social__link">
-              <img src="./images/instagram.svg" alt="" class="social__img">
+              <img src="<%=require('./images/instagram.svg')%>" alt="" class="social__img">
             </a>
           </li>
           <li class="social__item">
             <a href="" class="social__link">
-              <img src="./images/youtube.svg" alt="" class="social__img">
+              <img src="<%=require('./images/youtube.svg')%>" alt="" class="social__img">
             </a>
           </li>
         </ul>
@@ -365,7 +363,7 @@
                 <select name="service" class="form__input form__input_type_select" id="">
                   <option class="form__input_type_option" value="Не заполнено">ВЫБЕРИТЕ УСЛУГУ</option>
                   <option class="form__input_type_option" value="Полировка">Полировка</option>
-                  <option class="form__input_type_option" value="Химчистка">Химчистка</option>
+                  <option class="form__input_type_option" value="Химчистка">Химчистка</option>')%>
                   <option class="form__input_type_option" value="Оклеивание пленками">Оклеивание пленками</option>
                   <option class="form__input_type_option" value="Защитные покрытия">Защитные покрытия</option>
                   <option class="form__input_type_option" value="Удаление вмятин">Удаление вмятин</option>
@@ -401,7 +399,7 @@
                 <div class="review__rating">
                   <div class="review__stars rating">
                     <div class="rating__bg" style="width: calc(20% * 5);"></div>
-                    <img src="./images/stars-image.png" alt="star" class="rating__image">
+                    <img src="<%=require('./images/stars-image.png')%>" alt="star" class="rating__image">
                   </div>
                   <div class="review__date">22 июля</div>
                 </div>
@@ -417,7 +415,7 @@
                 <div class="review__rating">
                   <div class="review__stars rating">
                     <div class="rating__bg" style="width: calc(20% * 5);"></div>
-                    <img src="./images/stars-image.png" alt="star" class="rating__image">
+                    <img src="<%=require('./images/stars-image.png')%>" alt="star" class="rating__image">
                   </div>
                   <div class="review__date">17 января</div>
                 </div>
@@ -433,7 +431,7 @@
                 <div class="review__rating">
                   <div class="review__stars rating">
                     <div class="rating__bg"style="width: calc(20% * 5);"></div>
-                    <img src="./images/stars-image.png" alt="star" class="rating__image">
+                    <img src="<%=require('./images/stars-image.png')%>" alt="star" class="rating__image">
                   </div>
                   <div class="review__date">14 февраля</div>
                 </div>
@@ -449,7 +447,7 @@
                 <div class="review__rating">
                   <div class="review__stars rating">
                     <div class="rating__bg" style="width: calc(20% * 5);"></div>
-                    <img src="./images/stars-image.png" alt="star" class="rating__image">
+                    <img src="<%=require('./images/stars-image.png')%>" alt="star" class="rating__image">
                   </div>
                   <div class="review__date">19 сентября</div>
                 </div>
@@ -462,7 +460,7 @@
             <div class="reviews__estimation">4.4</div>
             <div class="reviews__stars rating">
               <div class="rating__bg" style="width: calc(20% * 4.4);"></div>
-              <img src="./images/stars-image.png" alt="star" class="rating__image">
+              <img src="<%=require('./images/stars-image.png')%>" alt="star" class="rating__image">
             </div>
             <p class="reviews__number-of-ratings">24 оценки</p>
             <p class="reviews__yandex-text">Больше отзывов о нас на <a href="" class="reviews__yandex-link"><span class="reviews__yandex-logo">Я</span>ндекс</a>
