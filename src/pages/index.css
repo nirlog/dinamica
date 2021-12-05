@@ -142,4 +142,13 @@
 @import url(../blocks/about/__item/about__item.css);
 @import url(../blocks/about/__list/about__list.css);
 @import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/specialists/specialists.css);
+@import url(../blocks/specialists/__description/specialists__description.css);
+@import url(../blocks/specialists/__carousel/specialists__carousel.css);
+@import url(../blocks/specialist/specialist.css);
+@import url(../blocks/specialist/__photo/specialist__photo.css);
+@import url(../blocks/specialist/__img/specialist__img.css);
+@import url(../blocks/specialist/__name/specialist__name.css);
+@import url(../blocks/specialist/__experience/specialist__experience.css);
+@import url(../blocks/specialist/__descrioption/specialist__descrioption.css);
 

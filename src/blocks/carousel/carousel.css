@@ -1,30 +1,11 @@
 .carousel {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  width: calc(100% - 60px);
+  margin: 0 auto;
 }
 
-.carousel.hidden {
-  display:none;
-}
-
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
   .carousel{
-    margin-top: 30px;
-    padding-top: 30px;
-  }
-
-  .carousel .carousel__button {
-    position: absolute;
-    top: 0;
-  }
-
-  .carousel .carousel__button.is-next {
-    left: 60px;
-  }
-
-  .carousel .carousel__button.is-prev{
-    left: 0;
+    width: 100%;
+    margin-top: 70px;
   }
 }

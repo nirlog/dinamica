@@ -1,0 +1,12 @@
+
+.specialists__carousel {
+  width: calc(100% - 60px);
+  margin: 40px auto 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .specialists__carousel {
+    width: 100%;
+    margin-top: 120px;
+  }
+}

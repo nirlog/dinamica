@@ -49,7 +49,24 @@ navigationSelectButton.addEventListener('click', toggleSelectList);
 document.addEventListener('click', closeSelectList);
 
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
+  $(".work-carousel").owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    navText: ['&larr;','&rarr;'],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        800:{
+            items:2,
+            nav:true
+        }
+    }
+  });
+
+  $(".specialists__carousel").owlCarousel({
     loop:true,
     margin:20,
     responsiveClass:true,
@@ -64,12 +81,13 @@ $(document).ready(function(){
             nav:true
         },
         1000:{
-            items:2,
+            items:4,
             nav:true,
-            // loop:false
         }
     }
-  })
+  });
+
+
 });
 
 
