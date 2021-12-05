@@ -1,0 +1,24 @@
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.owl-carousel > .owl-nav > button.owl-prev, .owl-carousel > .owl-nav > button.owl-next{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 34px;
+}
+
+.owl-carousel > .owl-nav > button.owl-prev {
+  transform: translateX(-50%);
+}
+
+.owl-carousel > .owl-nav > button.owl-next {
+  transform: translateX(50%);
+}

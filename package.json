@@ -38,6 +38,8 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.9",
-    "core-js": "^3.18.1"
+    "core-js": "^3.18.1",
+    "jquery": "^3.6.0",
+    "owl.carousel": "^2.3.4"
   }
 }

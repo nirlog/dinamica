@@ -1,5 +1,6 @@
 import "@fancyapps/ui/dist/fancybox.css";
 import './index.css';
+import 'owl.carousel';
 
 import { Fancybox, Carousel } from "@fancyapps/ui";
 import Submenu from '../scripts/components/Submenu.js';
@@ -21,13 +22,6 @@ mobileMenuButton.addEventListener('click', (e) =>{
 });
 
   /* completed-works */
-
-const sliders = Array.from(document.querySelectorAll('.carousel'));
-sliders.forEach((slider) => {
-  const worksSlider = new Carousel(slider, {
-  });
-  worksSlider.slideNext();
-});
 
 
 const workSlider = document.querySelector('.completed-works');
@@ -53,6 +47,30 @@ const closeSelectList = () => {
 
 navigationSelectButton.addEventListener('click', toggleSelectList);
 document.addEventListener('click', closeSelectList);
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    navText: ['&larr;','&rarr;'],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:true
+        },
+        1000:{
+            items:2,
+            nav:true,
+            // loop:false
+        }
+    }
+  })
+});
 
 
 

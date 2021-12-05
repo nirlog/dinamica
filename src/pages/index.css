@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url(../vendor/normalize.css);
+@import url(../vendor/owl.carousel.min.css);
+@import url(../vendor/owl.theme.default.min.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/container/__title/container__title.css);
 @import url(../blocks/video/video.css);
+@import url(../blocks/hidden/hidden.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -75,6 +79,7 @@
 @import url(../blocks/navigation/__button/navigation__button.css);
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__slide/carousel__slide.css);
+@import url(../blocks/carousel/__nav/carousel__nav.css);
 @import url(../blocks/navigation-select/navigation-select.css);
 @import url(../blocks/navigation-select/__selected/navigation-select__selected.css);
 @import url(../blocks/navigation-select/__list/navigation-select__list.css);

@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   target: ['web', 'es5'],
@@ -11,6 +12,7 @@ module.exports = {
     filename: '[name].[contenthash].js',
         publicPath: ''
   },
+  devtool: 'eval-source-map',
   mode: 'development',
   devServer: {
     static: {
@@ -57,5 +59,10 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
+    new webpack.ProvidePlugin({
+      $: path.resolve(path.join(__dirname, 'node_modules/jquery')),
+      jQuery: path.resolve(path.join(__dirname, 'node_modules/jquery')),
+      'window.jQuery': path.resolve(path.join(__dirname, 'node_modules/jquery')),
+    }),
   ]
 };
