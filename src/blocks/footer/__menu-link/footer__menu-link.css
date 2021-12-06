@@ -1,0 +1,19 @@
+.footer__menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.footer__menu-link:hover {
+  color:#007BB6;
+  text-decoration: underline;
+}
+.footer__menu-link:focus {
+  font-weight: 700;
+}
+
+

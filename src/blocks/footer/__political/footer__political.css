@@ -1,0 +1,8 @@
+.footer__political {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.5);
+}

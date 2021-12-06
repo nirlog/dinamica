@@ -757,13 +757,24 @@
     <div class="container">
       <div class="footer__content">
         <div class="footer__logo">
-          <img src="" alt="" class="footer__logo-img">
+          <img src="<%=require('./images/logo-w.png')%>" alt="" class="footer__logo-img">
         </div>
         <div class="footer__about">
-          <div class="footer__address"></div>
-          <div class="footer__work-mode"></div>
-          <div class="footer__political">Политика конфиденциальности</div>
-          <div class="footer__copy">ⓒ 2021 Все права защищены Dinamica Detailing</div>
+          <div>
+            <div class="footer__address adress">
+              <p class="adress__text">
+                <img src="<%=require('./images/room.svg')%>" class="adress__img" alt="">
+                <span>Санкт-Петербург, ул. Дорога на Турухтанные Острова, д. 10А</span>
+              </p>
+            </div>
+            <div class="footer__work-mode">Пн-Пт 10:00 - 19:00<br>
+              Сб-Вс 11:00 - 19:00</div>
+          </div>
+          <div>
+            <div class="footer__political">Политика конфиденциальности</div>
+            <div class="footer__copy">ⓒ 2021 Все права защищены Dinamica Detailing</div>
+          </div>
+
         </div>
         <ul class="footer__work-menu">
           <li class="footer__menu-item"><a href="" class="footer__menu-link">Полировка</a></li>
@@ -787,7 +798,7 @@
               <li class="footer__phone-item"><a href="#" class="phone">+7 (911) 925-20-35</a></li>
               <li class="footer__phone-item"><a href="#" class="phone">+7 (911) 925-20-35</a></li>
             </ul>
-            <button class="footer__feedback"></button>
+            <button class="footer__feedback button button_color_red">Записаться онлайн</button>
             <ul class="footer__socail social">
               <li class="social__item">
                 <a href="" class="social__link">
@@ -805,12 +816,10 @@
                 </a>
               </li>
             </ul>
-
         </div>
       </div>
     </div>
   </footer>
-  <br><br><br>
   <div id="test" style="display:none;max-width:500px;">
     <h3>test</h3>
   </div>

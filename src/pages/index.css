@@ -168,4 +168,22 @@
 @import url(../blocks/contacts/__socail/contacts__socail.css);
 @import url(../blocks/contacts/__form-question/contacts__form-question.css);
 @import url(../blocks/contacts/__dinamica/contacts__dinamica.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo-img/footer__logo-img.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__phone-item/footer__phone-item.css);
+@import url(../blocks/footer/__phones/footer__phones.css);
+@import url(../blocks/footer/__political/footer__political.css);
+@import url(../blocks/footer/__socail/footer__socail.css);
+@import url(../blocks/footer/__work-menu/footer__work-menu.css);
+@import url(../blocks/footer/__work-mode/footer__work-mode.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__copy/footer__copy.css);
+@import url(../blocks/footer/__feedback/footer__feedback.css);
 

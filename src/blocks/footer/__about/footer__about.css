@@ -1,0 +1,13 @@
+.footer__about {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__about {
+    order: 3;
+  }
+}

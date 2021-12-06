@@ -2,6 +2,7 @@
   background-color: #007BB6;
   position: relative;
   color: #fff;
+  overflow: hidden;
 }
 
 .contacts .container {

@@ -1,0 +1,19 @@
+.footer__work-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__work-menu {
+    order: 1;
+    justify-self: baseline;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__work-menu {
+    order: 1;
+    justify-self: stretch;
+  }
+}

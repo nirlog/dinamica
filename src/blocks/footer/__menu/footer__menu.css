@@ -1,0 +1,22 @@
+.footer__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer__menu .footer__menu-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__menu {
+    order: 2
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__menu {
+    display: none;
+  }
+}
