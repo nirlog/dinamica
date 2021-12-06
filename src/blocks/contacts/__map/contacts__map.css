@@ -1,0 +1,19 @@
+.contacts__map {
+  display: block; box-sizing: border-box;
+}
+
+@media screen and (max-width:1200px) {
+  .contacts__map {
+    order: 1;
+  }
+  .contacts__map iframe {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .contacts__map iframe {
+    height: 230px;
+  }
+}
+

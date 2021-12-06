@@ -1,0 +1,15 @@
+.contacts {
+  background-color: #007BB6;
+  position: relative;
+  color: #fff;
+}
+
+.contacts .container {
+  z-index: 2;
+  position: relative;
+}
+
+.contacts .container__title {
+  color: #fff;
+}
+

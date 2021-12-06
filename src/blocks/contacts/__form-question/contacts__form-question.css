@@ -1,0 +1,35 @@
+.contacts__form-question {
+  background-color: #fff;
+  padding: 40px;
+  color: #252525;
+
+}
+
+
+.contacts__form-question .form__label {
+  display: none;
+}
+.contacts__form-question .form__fieldset {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 15px;
+}
+
+.contacts__form-question .form__input_type_text {
+  background: #F2F2F2;
+  border: 1px solid #989898;
+  max-width: none;
+  box-sizing: border-box;
+  color: #252525;
+}
+
+.contacts__form-question .form__input::placeholder {
+  color: rgba(143, 143, 143, 0.5);
+
+}
+
+@media screen and (max-width:500px) {
+  .contacts__form-question .form__fieldset {
+    grid-template-columns: 1fr;
+  }
+}

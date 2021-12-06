@@ -105,6 +105,7 @@
 @import url(../blocks/form/__textarea/form__textarea.css);
 @import url(../blocks/form/__politics/form__politics.css);
 @import url(../blocks/form/__politics-link/form__politics-link.css);
+@import url(../blocks/form/__description/form__descripion.css);
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__content/reviews__content.css);
 @import url(../blocks/reviews/__estimation/reviews__estimation.css);
@@ -151,4 +152,20 @@
 @import url(../blocks/specialist/__name/specialist__name.css);
 @import url(../blocks/specialist/__experience/specialist__experience.css);
 @import url(../blocks/specialist/__descrioption/specialist__descrioption.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__address/contacts__address.css);
+@import url(../blocks/contacts/__content/contacts__content.css);
+@import url(../blocks/contacts/__map/contacts__map.css);
+@import url(../blocks/contacts/__section-content/contacts__section-content.css);
+@import url(../blocks/contacts/__section-title/contacts__section-title.css);
+@import url(../blocks/contacts/__sections/contacts__sections.css);
+@import url(../blocks/contacts/__section/contacts__section.css);
+@import url(../blocks/contacts/__section/_type/contacts__section_type_address.css);
+@import url(../blocks/contacts/__section/_type/contacts__section_type_phone.css);
+@import url(../blocks/contacts/__section/_type/contacts__section_type_social.css);
+@import url(../blocks/contacts/__section/_type/contacts__section_type_work-mode.css);
+@import url(../blocks/contacts/__section/_type/contacts__section_type_form-question.css);
+@import url(../blocks/contacts/__socail/contacts__socail.css);
+@import url(../blocks/contacts/__form-question/contacts__form-question.css);
+@import url(../blocks/contacts/__dinamica/contacts__dinamica.css);
 

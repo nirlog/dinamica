@@ -1,0 +1,9 @@
+.contacts__section_type_address {
+  grid-column: 1/4;
+}
+
+@media screen and (max-width:550px) {
+  .contacts__section_type_address {
+    grid-column: auto;
+  }
+}

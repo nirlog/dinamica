@@ -687,7 +687,129 @@
         </div>
       </div>
     </div>
+
   </section>
+  <section class="contacts">
+    <div class="container">
+      <h2 class="container__title">Контакты</h2>
+      <div class="contacts__content">
+        <div class="contacts__sections">
+          <div class="contacts__address">
+            <div class="contacts__section contacts__section_type_address">
+              <p class="contacts__section-title">Адрес:</p>
+              <p class="contacts__section-content">Санкт-Петербург, ул. Дорога на Турухтанные Острова, д. 10А</p>
+            </div>
+            <div class="contacts__section contacts__section_type_phone">
+              <p class="contacts__section-title">Телефоны:</p>
+              <p class="contacts__section-content">
+                +7 (812) 925-20-35<br>
+                +7 (812) 925-20-35
+              </p>
+            </div>
+            <div class="contacts__section contacts__section_type_work-mode">
+              <p class="contacts__section-title">Режим работы:</p>
+              <p class="contacts__section-content">Пн-Пт 10:00 - 19:00<br>
+                Сб-Вс 11:00 - 19:00</p>
+            </div>
+            <div class="contacts__section contacts__section_type_social">
+              <p class="contacts__section-title">Соцсети:</p>
+              <p class="contacts__section-content">
+                <ul class="contacts__socail social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <img src="<%=require('./images/tiktok_white.svg')%>" alt="" class="social__img">
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <img src="<%=require('./images/instagram_white.svg')%>" alt="" class="social__img">
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <img src="<%=require('./images/youtube_white.svg')%>" alt="" class="social__img">
+                    </a>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="contacts__section contacts__section_type_form-question">
+            <form action="" class="form contacts__form-question">
+              <p class="form__descripion">Остались вопросы? Оставьте номер телефона, и в ближайшее время с вами свяжется менеджер.</p>
+                <fieldset class="form__fieldset">
+                  <label class="form__label" for="question-phone"></label>
+                  <input class="form__input form__input_type_text" id="question-phone" name="phone" type="text" value="" placeholder="+7___ ___ __ __">
+                  <input type="button" class="button button_color_red" value="Отправить">
+                </fieldset>
+            </form>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4c827277c18b1c10e0bfc1a76bf9f3e404f17803a132896b029370ade5ef4d7b&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="contacts__dinamica">Dinamica</div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="" alt="" class="footer__logo-img">
+        </div>
+        <div class="footer__about">
+          <div class="footer__address"></div>
+          <div class="footer__work-mode"></div>
+          <div class="footer__political">Политика конфиденциальности</div>
+          <div class="footer__copy">ⓒ 2021 Все права защищены Dinamica Detailing</div>
+        </div>
+        <ul class="footer__work-menu">
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Полировка</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Химчистка</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Оклеивание пленками</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Защитные покрытия</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Удаление вмятин</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Шумоизоляция</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Профессиональная мойка</a></li>
+        </ul>
+        <ul class="footer__menu">
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Выполненные работы</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Акции</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Отзывы</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">О Dinamica</a></li>
+          <li class="footer__menu-item"><a href="" class="footer__menu-link">Контакты</a></li>
+        </ul>
+
+        <div class="footer__contacts">
+            <ul class="footer__phones">
+              <li class="footer__phone-item"><a href="#" class="phone">+7 (911) 925-20-35</a></li>
+              <li class="footer__phone-item"><a href="#" class="phone">+7 (911) 925-20-35</a></li>
+            </ul>
+            <button class="footer__feedback"></button>
+            <ul class="footer__socail social">
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <img src="<%=require('./images/tiktok.svg')%>" alt="" class="social__img">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <img src="<%=require('./images/instagram.svg')%>" alt="" class="social__img">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <img src="<%=require('./images/youtube.svg')%>" alt="" class="social__img">
+                </a>
+              </li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </footer>
   <br><br><br>
   <div id="test" style="display:none;max-width:500px;">
     <h3>test</h3>

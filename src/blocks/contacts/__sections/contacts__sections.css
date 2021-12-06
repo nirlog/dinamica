@@ -1,0 +1,21 @@
+.contacts__sections {
+  display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+    align-content: space-between;
+}
+
+@media screen and (max-width:1200px) {
+  .contacts__sections {
+    grid-template-columns: 1fr 1fr;
+    order: 2;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .contacts__sections {
+    grid-template-columns: 1fr;
+    max-width: 650px;
+    margin: auto;
+  }
+}
