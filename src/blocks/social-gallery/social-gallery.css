@@ -1,3 +1,11 @@
 .social-gallery {
-  padding-top: 30px;
+  padding-top: 45px;
+}
+
+.social-gallery .social__img {
+  height: 45px;
+}
+
+.social-gallery .social__item:not(:first-child) {
+  margin-left: 15px;
 }

@@ -4,9 +4,15 @@
   position: absolute;
   right: 0;
   top: 0;
-  max-width: 50%;
+  max-width: 54%;
   height: 100%;
   z-index: 0;
+}
+
+@media screen and (max-width:1200px) {
+  .first-screen__image-bg {
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width:1000px) {

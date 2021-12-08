@@ -1,3 +1,8 @@
+#special-offers.container {
+  padding-top: 0;
+  padding-bottom: 250px;
+}
+
 .special-offers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

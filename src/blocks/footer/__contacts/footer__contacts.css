@@ -1,9 +1,10 @@
 .footer__contacts {
   display: grid;
+  gap: 30px;
   grid-template-columns: 1fr;
-  gap:30px;
-  align-items: start;
+  align-content: center;
   justify-items: end;
+  align-self: start;
 }
 
 @media screen and (max-width: 1000px) {

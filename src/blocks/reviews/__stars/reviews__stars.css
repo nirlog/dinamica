@@ -1,4 +1,5 @@
 .reviews__stars {
   display: inline-block;
   width: 120px;
+  margin-top: 15px;
 }

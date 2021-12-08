@@ -3,3 +3,7 @@
   position: relative;
   width: 100%;
 }
+
+.first-screen .container {
+  padding: 55px 10px 65px;
+}

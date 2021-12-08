@@ -11,7 +11,7 @@
 }
 .contacts__form-question .form__fieldset {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto auto;
   gap: 15px;
 }
 

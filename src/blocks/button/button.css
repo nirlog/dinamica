@@ -1,9 +1,11 @@
 .button {
   box-sizing: border-box;
-  padding: 20px 26px;
   font-family: 'Play', sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   display: inline-block;
+  max-width: 260px;
+  padding: 30px;
+  width: 100%;
 }

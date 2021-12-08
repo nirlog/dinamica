@@ -1,0 +1,13 @@
+.popup__form-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 550px) {
+  .popup__form-content {
+    grid-template-columns: 1fr;
+  }
+}

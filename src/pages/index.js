@@ -61,7 +61,8 @@ $(document).ready(function(){
         },
         800:{
             items:2,
-            nav:true
+            nav:true,
+            dots: true
         }
     }
   });
