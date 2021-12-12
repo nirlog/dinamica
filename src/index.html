@@ -64,13 +64,13 @@
           <a href="#completed-works" class="menu__link">Выполненные работы</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Отзывы</a>
+          <a href="#reviews" class="menu__link">Отзывы</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">О Dinamica</a>
+          <a href="#about" class="menu__link">О Dinamica</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Контакты</a>
+          <a href="#contacts" class="menu__link">Контакты</a>
         </li>
         <li class="mobile-menu__item adress">
             <p class="adress__text">
@@ -131,8 +131,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">1</span>
-            <h3 class="services__title">Полировка</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"><a href="/polishing.html" title="Полировка">Полировка</a></h3>
+            <a href="/polishing.html" title="Полировка" class="services__button button button_color_white">Подробнее</a>
             <ul class="services__variations">
               <li>Восстановленная</li>
               <li>Коррекционная</li>
@@ -145,8 +145,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">2</span>
-            <h3 class="services__title">Химчистка</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"><a href="/dry-cleaning.html" title="Химчистка">Химчистка</a></h3>
+            <a href="/dry-cleaning.html" title="Химчистка" class="services__button button button_color_white">Подробнее</a>
           </div>
           <div class="services__image-block"><img src="<%=require('./images/services/dry-cleaning.jpg')%>" alt="" class="services__image"></div>
         </article>
@@ -155,8 +155,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">3</span>
-            <h3 class="services__title">Оклеивание пленками</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"><a href="/pasting-with-films.html" title="Оклеивание пленками">Оклеивание пленками</a></h3>
+            <a href="/pasting-with-films.html" title="Оклеивание пленками" class="services__button button button_color_white">Подробнее</a>
             <ul class="services__variations">
               <li>Полиуретановая (антигравийная)</li>
               <li>ПВХ (виниловая)</li>
@@ -169,8 +169,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">4</span>
-            <h3 class="services__title">Защитные покрытия</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"><a href="/protective-coatings.html" title="Защитные покрытия">Защитные покрытия</a></h3>
+            <a href="/protective-coatings.html" title="Защитные покрытия" class="services__button button button_color_white">Подробнее</a>
             <ul class="services__variations">
               <li>Керамическое покрытие</li>
               <li>Твердый воск "SWISSVAX"</li>
@@ -183,8 +183,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">5</span>
-            <h3 class="services__title">Удаление вмятин</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"><a href="/removing-dents.html" title="Удаление вмятин">Удаление вмятин</a></h3>
+            <a href="/removing-dents.html" title="Удаление вмятин" class="services__button button button_color_white">Подробнее</a>
           </div>
           <div class="services__image-block"><img src="<%=require('./images/services/removing-dents.jpg')%>" alt="" class="services__image"></div>
         </article>
@@ -193,8 +193,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">6</span>
-            <h3 class="services__title">Шумоизоляция</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"><a href="/sound-insulation.html" title="Шумоизоляция">Шумоизоляция</a></h3>
+            <a href="/sound-insulation.html" title="Шумоизоляция" class="services__button button button_color_white">Подробнее</a>
           </div>
           <div class="services__image-block"><img src="<%=require('./images/services/sound-insulation.jpg')%>" alt="" class="services__image"></div>
         </article>
@@ -203,8 +203,8 @@
         <article class="services__item">
           <div class="services__content">
             <span class="services__number">7</span>
-            <h3 class="services__title">Профессиональная мойка</h3>
-            <a href="#" class="services__button button button_color_white">Подробнее</a>
+            <h3 class="services__title"> <a href="/professional-car-wash.html" title="Профессиональная мойка">Профессиональная мойка</a></h3>
+            <a href="/professional-car-wash.html" title="Профессиональная мойка" class="services__button button button_color_white">Подробнее</a>
           </div>
           <div class="services__image-block"><img src="<%=require('./images/services/professional-car-wash.jpg')%>" alt="" class="services__image"></div>
         </article>
@@ -492,7 +492,7 @@
     </div>
     <div class="costing__dinamica">Dinamica</div>
   </section>
-  <section class="reviews">
+  <section id="reviews" class="reviews">
     <div class="container">
         <h2 class="container__title">Отзывы</h2>
         <div class="reviews__content">
@@ -596,7 +596,7 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/6rDs-Hgk3X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div class="about">
+      <div id="about" class="about">
         <h3 class="about__title">Dinamica Detailing - это:</h3>
         <ul class="about__list">
           <li class="about__item">
@@ -688,7 +688,7 @@
     </div>
 
   </section>
-  <section class="contacts">
+  <section id="contacts" class="contacts">
     <div class="container">
       <h2 class="container__title">Контакты</h2>
       <div class="contacts__content">
@@ -785,11 +785,11 @@
           <li class="footer__menu-item"><a href="/professional-car-wash.html" class="footer__menu-link" title="Профессиональная мойка">Профессиональная мойка</a></li>
         </ul>
         <ul class="footer__menu">
-          <li class="footer__menu-item"><a href="" class="footer__menu-link">Выполненные работы</a></li>
-          <li class="footer__menu-item"><a href="" class="footer__menu-link">Акции</a></li>
-          <li class="footer__menu-item"><a href="" class="footer__menu-link">Отзывы</a></li>
-          <li class="footer__menu-item"><a href="" class="footer__menu-link">О Dinamica</a></li>
-          <li class="footer__menu-item"><a href="" class="footer__menu-link">Контакты</a></li>
+          <li class="footer__menu-item"><a href="#completed-works" class="footer__menu-link">Выполненные работы</a></li>
+          <li class="footer__menu-item"><a href="#special-offers" class="footer__menu-link">Акции</a></li>
+          <li class="footer__menu-item"><a href="#reviews" class="footer__menu-link">Отзывы</a></li>
+          <li class="footer__menu-item"><a href="#about" class="footer__menu-link">О Dinamica</a></li>
+          <li class="footer__menu-item"><a href="#contacts" class="footer__menu-link">Контакты</a></li>
         </ul>
 
         <div class="footer__contacts">

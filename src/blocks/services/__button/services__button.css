@@ -13,8 +13,10 @@
   display: inline-block;
 }
 
-@media screen and (max-width: 850px) {
-  .services__button {
-    top: 120px;
+
+@media screen and (max-width: 1000px) {
+  .services__item.hover .services__button, .services__item:hover .services__button {
+    display: none;
   }
+
 }

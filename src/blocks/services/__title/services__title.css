@@ -1,11 +1,15 @@
-.services__title {
+.services__title,.services__title a {
   font-family: 'Play';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
+  line-height: 116%;
   color: #fff;
   margin: 0;
+  text-decoration: none;
+}
 
+.services__title:hover {
 }
 
 @media screen and (max-width: 1200px) {
