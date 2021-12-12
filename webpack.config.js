@@ -2,15 +2,17 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const autoprefixer = require('autoprefixer');
 const webpack = require('webpack');
 
 module.exports = {
   target: ['web', 'es5'],
-  entry: { main: './src/pages/index.js' },
+  entry: {
+    index: './src/pages/index.js',
+    services: './src/pages/services.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].js',
+    filename: 'js/[name].[contenthash].js',
         publicPath: ''
   },
   devtool: 'eval-source-map',
@@ -46,6 +48,9 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        generator: {
+          filename: 'css/[name].[hash][ext]',
+        },
         use: [MiniCssExtractPlugin.loader, {
           loader: 'css-loader',
           options: { importLoaders: 1 }
@@ -56,7 +61,57 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      inject: true,
+      template: './src/index.html',
+      filename: 'index.html',
+      chunks: ["index"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/polishing.html',
+      filename: 'polishing.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/dry-cleaning.html',
+      filename: 'dry-cleaning.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/pasting-with-films.html',
+      filename: 'pasting-with-films.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/professional-car-wash.html',
+      filename: 'professional-car-wash.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/protective-coatings.html',
+      filename: 'protective-coatings.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/removing-dents.html',
+      filename: 'removing-dents.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/sound-insulation.html',
+      filename: 'sound-insulation.html',
+      chunks: ["services"],
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/politics.html',
+      filename: 'politics.html',
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),

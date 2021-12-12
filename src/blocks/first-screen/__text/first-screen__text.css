@@ -10,3 +10,9 @@
     padding-top: 60px;
   }
 }
+
+@media screen and (max-width:800px) {
+  .first-screen__text {
+    padding-top: 30px;
+  }
+}

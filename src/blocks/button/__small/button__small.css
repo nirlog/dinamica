@@ -2,3 +2,10 @@
   padding: 18px 26px;
   width: auto;
 }
+
+
+@media screen and (max-width: 800px) {
+  .button__small {
+    padding: 12px 20px;
+  }
+}

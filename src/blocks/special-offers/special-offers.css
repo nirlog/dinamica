@@ -17,3 +17,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width:1000px) {
+  #special-offers.container {
+    padding-bottom: 60px;
+  }
+}

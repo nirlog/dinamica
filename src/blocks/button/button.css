@@ -6,6 +6,12 @@
   line-height: 21px;
   display: inline-block;
   max-width: 260px;
-  padding: 30px;
+  padding: 25px 30px;
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .button {
+    padding: 18px 24px;
+  }
 }

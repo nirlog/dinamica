@@ -7,7 +7,6 @@
   transform: translate(-50%, -50%);
   display: none;
   text-decoration: none;
-  padding: 25px 30px;
 }
 
 .services__item.hover .services__button, .services__item:hover .services__button {
