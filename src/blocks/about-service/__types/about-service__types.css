@@ -1,0 +1,13 @@
+.about-service__types {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+@media screen and (max-width:650px) {
+  .about-service__types {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 420px));
+  margin: auto;
+  }
+}

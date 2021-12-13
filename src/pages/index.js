@@ -93,4 +93,16 @@ $(document).ready(function(){
 });
 
 
+/*заполнение формы заказа услуги*/
 
+const buttonsFromService = Array.from(document.querySelectorAll('.button__form-services'));
+const formService = document.querySelector('#form_service');
+const fillForm = () => {
+  const dataName = event.target.getAttribute('data-name');
+  formService.querySelector('.form__service-title').textContent = `"${dataName}"`;
+  formService.querySelector('.form__service-name').value = dataName;
+}
+
+buttonsFromService.forEach((btnService) => {
+  btnService.addEventListener('click', fillForm);
+});

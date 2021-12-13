@@ -1,0 +1,28 @@
+.special__block {
+  background-color: #F0F0F0;
+  background-image: url(../../../images/line_top.svg);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 50px 50px 170px;
+}
+
+@media screen and (max-width:800px) {
+  .special__block {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .special__block {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .special__block {
+    padding-bottom: 50px;
+  }
+}

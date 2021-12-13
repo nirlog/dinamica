@@ -8,7 +8,6 @@ module.exports = {
   target: ['web', 'es5'],
   entry: {
     index: './src/pages/index.js',
-    services: './src/pages/services.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -70,43 +69,43 @@ module.exports = {
       inject: true,
       template: './src/polishing.html',
       filename: 'polishing.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/dry-cleaning.html',
       filename: 'dry-cleaning.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/pasting-with-films.html',
       filename: 'pasting-with-films.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/professional-car-wash.html',
       filename: 'professional-car-wash.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/protective-coatings.html',
       filename: 'protective-coatings.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/removing-dents.html',
       filename: 'removing-dents.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/sound-insulation.html',
       filename: 'sound-insulation.html',
-      chunks: ["services"],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       inject: false,

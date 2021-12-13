@@ -1,0 +1,11 @@
+.pricelist__content {
+
+}
+
+.pricelist__content tr:nth-child(2n) {
+  background-color: #efefef;
+}
+
+.pricelist__content tr:nth-child(2n) .pricelist__name,.pricelist__content tr:nth-child(2n) .pricelist__price {
+  border: #fff 1px solid;
+}

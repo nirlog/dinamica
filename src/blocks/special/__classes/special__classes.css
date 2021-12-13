@@ -1,0 +1,19 @@
+.special__classes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px 55px;
+  justify-content: start;
+}
+
+
+@media screen and (max-width:1200px) {
+  .special__classes {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width:650px) {
+  .special__classes {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,9 @@
+.type-service__footnote {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+  margin: 0;
+}

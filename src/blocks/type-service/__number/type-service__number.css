@@ -1,0 +1,12 @@
+.type-service__number {
+  bottom: 0;
+  color: hsla(0,0%,100%,.11);
+  font-family: 'Play';
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  right: 0;
+  transform: translateY(25%);
+}

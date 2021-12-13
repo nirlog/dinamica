@@ -1,0 +1,10 @@
+.about-service__button-block {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, auto));
+  justify-content: start;
+    gap: 10px;
+}
+
+.about-service__button-block button {
+  width: 100%;
+}

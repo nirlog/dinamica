@@ -1,0 +1,10 @@
+.type-service__block {
+  background-color: #007bb6;
+  color: #fff;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

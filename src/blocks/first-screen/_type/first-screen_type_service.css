@@ -1,0 +1,26 @@
+.first-screen_type_service .first-screen__title {
+  font-size: 70px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.first-screen_type_service .first-screen__subtitle {
+  width: 100%;
+}
+
+.first-screen_type_service .first-screen__image-bg {
+  object-position: center;
+}
+
+
+@media screen and (max-width:1000px) {
+  .first-screen_type_service .first-screen__title {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .first-screen_type_service .first-screen__title {
+    font-size: 48px;
+  }
+}

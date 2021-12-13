@@ -1,0 +1,8 @@
+.pricelist__title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pricelist__title td {
+  padding: 5px 7px
+}
