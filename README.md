@@ -1,3 +1,3 @@
 # Проект: Dinamica
 
-Верска сайта
+Верска сайта https://nirlog.github.io/dinamica/
